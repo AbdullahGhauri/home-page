@@ -1,0 +1,323 @@
+/* .header{
+    background-color: blue;
+    width: auto;
+    height: auto;
+}
+.td2{
+    padding-right: 50px;
+}
+.td1{
+    padding-right: 150px;
+    padding-left: 200px;
+}
+
+.td1 img{
+    width: 40px;
+}
+.infoBar{
+    float: right;
+}
+.td4{
+    padding-right: 200px;
+    padding-left: 150px;
+} */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.header img{
+    width: 40px;
+}
+.header button{
+    margin-top: 15px;
+}
+/* .infoBar button{
+    font-size: 1em;
+    border-radius: 5px;
+    float: left;
+} */
+
+.infoBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.infoBar button{
+    margin-top: 0px;
+}
+
+.sylani_img{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.para{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.para p{
+    
+    background-color: skyblue;
+}
+.intro{
+    text-align: center;
+    display: block;
+}
+.firstpart{
+    color: blue;
+    display: inline;
+}
+.secondpart{
+    color: greenyellow;
+    display: inline;
+}
+.intro img{
+    width: 100px;
+}
+.intropic{
+    text-align: center;
+}
+.intropic img{
+    width: 100px;
+}
+.intropara p{
+    margin: 0px 300px 0px 300px;
+    
+    }
+@media only screen and (max-width:500px){ 
+    .intropara p{
+    margin: 0px 0px 0px 0px;
+    
+    }
+}
+.intropara{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+
+/* .expense img,.doing img{
+    width: 40px;
+}
+.expense{
+    text-align: center;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.expense p{
+    font-size: 25px;
+    color: white;
+}
+.expense td{
+    white-space: normal;
+    padding: 20px 20px 20px 20px;
+}
+.expensetable{
+    padding: 50px 70px 50px 70px;
+} 
+.doing img{
+    width: 60px;
+    cursor: pointer;
+}
+.doing{
+    background-color: gainsboro;
+    text-align: center;
+}
+.doing table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:separate; 
+  border-spacing: 40px;
+}
+.doing h3{
+    color: blue;
+}
+.doing td{
+    background-color: white;
+    width: 350px;
+    height: 150px;
+}
+.mission img{
+    width: 40px;
+    display: inline;
+}
+.mission h3{
+    color: blue;
+    display: inline;
+}
+.mission td{
+    background-color: gainsboro;
+    width: 400px;
+    height: 65px;
+}
+.mission{
+    margin: 60px 150px 0px 150px;
+}
+.mission1,.mission2{
+    display: inline;
+    float: left;
+    margin: 10px 30px 10px 30px;
+}
+.mission h2{
+    text-align: center;
+    color: blue;
+    display: inline;
+}
+.missionheading{
+    margin-left: 20px;
+}
+.mission p{
+    width: 200px;
+    height: 400px;
+}
+.mission table{
+    border-collapse:separate; 
+    border-spacing: 20px;
+}*/
+.new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: blue;
+    text-align: center;
+    padding: 80px 150px 80px 150px;
+
+}
+.new p{
+    font-size: 35px;
+    color: white;
+}
+.new h4{
+    color: white;
+}
+.new img{
+    width: 60px;
+}
+.new1,.new2,.new3,.new4{
+    margin-right: 20px;
+}
+
+.doing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: gainsboro;
+    text-align: center;
+}
+.doing img{
+    width: 60px;
+    cursor: pointer;
+}
+.doing1,.doing2,.doing3,.doing4,.doing5,.doing6{
+    background-color: white;
+    width: 350px;
+    height: 150px;
+    margin: 20px 20px 20px 20px;;
+}
+.doing h3{
+    color: blue;
+    font-size: 20px;
+}
+.mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-top: 100px;
+    height: 300px;
+    
+}
+@media only screen and (max-width:500px){
+    .mission{
+        height: 600px;
+    }
+    .sylani_img img{
+        width: 500px;
+    }
+}
+.mission img{
+    width: 50px;
+    display: inline;
+    float: left;
+}
+.mission1,.mission2{
+    float: left;
+    display: block;
+}
+.mission1{
+    flex: 8;
+}
+.mission2{
+    flex: 4;
+}
+.mission p{
+    width: 200px;
+    height: 400px;
+}
+.m1,.m2,.m3,.m4{
+    background-color: gainsboro;
+    width: 400px;
+    height: 55px;
+    margin: 5px 5px 5px 5px;
+    float: left;
+    display: block;
+}
+.mission h2,.mission h3{
+    color: blue;
+    text-align: left;
+}
+
+.imagegallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagegallery img{
+    width: 250px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+}
+.footer img{
+    width: 15px;
+}
+.footer2 img{
+    width: 30px;
+}
+.footer1,.footer2,.footer3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
